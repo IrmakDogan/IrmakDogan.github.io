@@ -1,2 +1,2 @@
-# bozcani.github.io
+# IrmakDogan.github.io
 My professional webpage
