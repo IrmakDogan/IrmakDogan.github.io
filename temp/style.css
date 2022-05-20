@@ -263,7 +263,7 @@ button:focus {
 	font-size: 35px;
 	font-family: 'Poppins', sans-serif;
 	margin-top: 0;
-	width: 250px;
+	width: 400px;
 	line-height: 18px;
 }
 
@@ -351,14 +351,15 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
-	padding: 28% 10%;
+	padding: 40% 0%;
+	padding-bottom: 80px;
 	text-align: center;
 }
 
 .mu-featured-area h1 {
-	font-size: 60px;
+	font-size: 50px;
 	color: #fff;
-	font-weight: 700;
+	font-weight: 900;
 	margin-bottom: 0;
 	line-height: 1;
 }
@@ -421,7 +422,7 @@ button:focus {
 .mu-about-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 60px 0;
 	width: 100%;
 }
 
@@ -899,7 +900,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background-color: #fff;
+	background-color: #f7f7f7;
 	display: inline;
 	float: left;
 	width: 100%;
