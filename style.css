@@ -352,7 +352,7 @@ button:focus {
 	float: left;
 	width: 100%;
 	padding: 20% 0%;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
@@ -1055,6 +1055,24 @@ button:focus {
 	      border-radius: 4px;
 }
 
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 700px; /* Prevents excessive width */
+    height: 0;
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 videos */
+    margin: auto; /* Centers the video */
+}
+
+.embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 .outreach-img {
     width: 70%;
@@ -1064,9 +1082,10 @@ button:focus {
     transition: transform 0.3s ease-in-out;
 }
 
+
 /* Fix for Last Two Images - Taller but Not Overly Cropped */
 .outreach-img-wide {
-    width: 50%; /* Keep them from taking up full width */
+    width: 70%; /* Keep them from taking up full width */
     max-width: 100%;
     height: 400px; /* Slightly taller for balance */
     object-fit: contain; /* Ensures full image visibility without cropping */
