@@ -352,7 +352,7 @@ button:focus {
 	float: left;
 	width: 100%;
 	padding: 20% 0%;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 	text-align: center;
 }
 
@@ -469,7 +469,7 @@ button:focus {
 }
 
 .mu-skill-progress-bar h3 {
-	margin-top: 20px;
+	margin-top: 5px;
 }
 
 .mu-skill-progress-bar>span {
@@ -527,14 +527,14 @@ button:focus {
 	height: 35px;
 	line-height: 32px;
 	text-align: center;
-	margin: 5px 5px;
+	margin: 0px 5px;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	
 }
 
 .mu-resume-btn {
-	margin-top: 30px;
+	margin-top: 10px;
 	display: inline-block;
 	padding: 10px 20px;
 	font-size: 16px;
@@ -572,7 +572,7 @@ button:focus {
 	display: inline;
 	float: left;
 	text-align: center;
-	padding: 0 120px;
+	padding: 0 100px;
 	width: 100%;
 }
 
@@ -660,7 +660,7 @@ button:focus {
 	height: 3px;
 	width: 75px;
 	display: inline-block;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .mu-portfolio-content{
