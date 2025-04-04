@@ -1079,7 +1079,6 @@ button:focus {
     width: 70%;
     max-width: 90%;
     height: auto;
-    border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -1087,17 +1086,15 @@ button:focus {
     width: 90%;
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
 .outreach-img-middle {
     display: block;
-    max-width: 500px;
-    width: 80%;
+    max-width: 450px;
+    width: 75%;
     height: auto;
     margin: 0 auto;
-    border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
