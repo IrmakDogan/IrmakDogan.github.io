@@ -1066,6 +1066,7 @@ button:focus {
 }
 
 .embed-responsive iframe {
+
     position: absolute;
     top: 0;
     left: 0;
@@ -1082,6 +1083,23 @@ button:focus {
     transition: transform 0.3s ease-in-out;
 }
 
+.outreach-img-bigger {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.outreach-img-middle {
+    display: block;
+    max-width: 500px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
 
 /* Fix for Last Two Images - Taller but Not Overly Cropped */
 .outreach-img-wide {
