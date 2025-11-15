@@ -1121,6 +1121,17 @@ button:focus {
     margin-bottom: 15px; /* Reduce spacing between images */
 }
 
+.pub-item {
+  margin-left: 2em;
+  text-indent: -1em;     /* makes J4/C1… stick out */
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.pub-item a {
+  white-space: normal !important;
+}
+
 
 /*--------------------*/
 /* FOOTER */
@@ -1438,6 +1449,7 @@ button:focus {
 	}
 	
 }
+
 
 
 
